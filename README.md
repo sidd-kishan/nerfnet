@@ -86,7 +86,7 @@ sudo nerfnet --primary --channel 10
 
 The primary radio polls the secondary radio to simplify the interaction
 between nodes. The secondary is always queuing packets and waits for the
-primary radio to request them. The poll interval defaults to 100 microeconds.
+primary radio to request them. The poll interval defaults to 100 microseconds.
 In order to save CPU time and reduce traffic on the air, this can be adjusted.
 
 ```
